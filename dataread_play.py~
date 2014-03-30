@@ -1,0 +1,74 @@
+## Robert Chen
+## Monday 2/17/2014
+##
+## trying to parse this in python
+## 
+
+import pandas as pd
+import numpy as np
+import math
+import copy
+import csv
+import scipy as s
+
+
+def read_csv_to_df(filename):
+    reader = csv.reader(open(filename, 'rU'), delimiter='\t')
+    l_headers = reader.next()
+    
+    index_ruid = np.array([]) #all the patient RUID's
+    index_drug = np.array([])
+    data_for_pt = [] #all the associated data; row by row
+    data_for_drug = []
+    
+    print("reading in the raw data: ---------------------- \n")
+    for row in reader:
+        ruid = int(row[0])
+        entry_date = pd.to_datetime(row[1])
+        drug_name = row[2]
+        drug_form = row[3]
+        drug_strength = row[4]
+        dose_amt = row[5]
+        route = row[6]
+        drug_freq = row[7]
+        duration = row[8]
+
+        index_ruid = np.append(index_ruid, ruid) #add RUID
+        index_drug = np.append(index_drug, drug_name)
+        data_for_pt.append([entry_date, drug_name,drug_form,drug_strength,dose_amt,route, drug_freq,duration])
+        data_for_drug.append([ruid, entry_date, drug_form,drug_strength,dose_amt,route, drug_freq,duration])
+    
+    #create pandas dataframe with patient RUID as index
+    df_data_pt = pd.DataFrame(data_for_pt, index=index_ruid, columns=l_headers[1:])
+    df_data_drug = pd.DataFrame(data_for_drug, index = index_drug, columns = np.concatenate([l_headers[0:2],l_headers[3:]]))
+    return df_data_pt, df_data_drug
+
+##Generate dataframe from data
+filename = '../med_status/data/med_data.txt'
+df_data_by_pt, df_data_by_drug = read_csv_to_df(filename)
+
+
+
+
+
+
+
+###### read in the input
+##filename = '../med_status/data/med_data.txt'
+##reader = csv.reader(open(filename, 'rU'), delimiter='\t') #tab delimited file!
+##
+#### read in the input
+##l_data_read = list(csv.reader(open(filename, 'rb'), delimiter='\t'))
+##d_data = dict()
+##l_headers = l_data_read[0]
+##l_data = l_data_read[1:]
+##
+
+##
+###put it in a dictionary
+##d_data = {}
+##for i, line in enumerate(file):
+##    if (i - 8) % 7:
+##        continue
+##    k, v = line.split("\t")[:3:2]
+##    my_dict[k] = v

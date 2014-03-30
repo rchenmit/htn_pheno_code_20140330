@@ -1,0 +1,87 @@
+@RELATION	bpstatus
+@ATTRIBUTE	"set[u'Dihydro CCBs', u'Beta Blockers']"	NUMERIC
+@ATTRIBUTE	"set[u'Dihydro CCBs', u'Beta Blockers', u'Diuretics']"	NUMERIC
+@ATTRIBUTE	"set[u'Beta Blockers']"	NUMERIC
+@ATTRIBUTE	"set[u'ACEI/ARB', u'Beta Blockers']"	NUMERIC
+@ATTRIBUTE	"set[u'Dihydro CCBs', u'ACEI/ARB', u'Beta Blockers']"	NUMERIC
+@ATTRIBUTE	"set[u'Dihydro CCBs', u'ACEI/ARB', u'Diuretics']"	NUMERIC
+@ATTRIBUTE	"set[u'ACEI/ARB', u'Diuretics']"	NUMERIC
+@ATTRIBUTE	"set[u'Dihydro CCBs', u'Diuretics']"	NUMERIC
+@ATTRIBUTE	"set[u'ACEI/ARB']"	NUMERIC
+@ATTRIBUTE	"set[u'ACEI/ARB', u'Beta Blockers', u'Diuretics']"	NUMERIC
+@ATTRIBUTE	"set[u'Diuretics']"	NUMERIC
+@ATTRIBUTE	"set[u'Beta Blockers', u'Diuretics']"	NUMERIC
+@ATTRIBUTE	"set[u'Dihydro CCBs', u'ACEI/ARB']"	NUMERIC
+@ATTRIBUTE	"set[u'Dihydro CCBs']"	NUMERIC
+@ATTRIBUTE	"set[u'Dihydro CCBs', u'ACEI/ARB', u'Beta Blockers', u'Diuretics']"	NUMERIC
+@ATTRIBUTE	"set[u'Aldosterone antagonists']"	NUMERIC
+@ATTRIBUTE	"set[u'Dihydro CCBs', u'Aldosterone antagonists']"	NUMERIC
+@ATTRIBUTE	"set[u'Aldosterone antagonists', u'Diuretics']"	NUMERIC
+@ATTRIBUTE	"set[u'ACEI/ARB', u'Aldosterone antagonists']"	NUMERIC
+@ATTRIBUTE	"set[u'ACEI/ARB', u'Aldosterone antagonists', u'Diuretics']"	NUMERIC
+@ATTRIBUTE	"set[u'Dihydro CCBs', u'ACEI/ARB', u'Aldosterone antagonists']"	NUMERIC
+@ATTRIBUTE	"set[u'Non-dihydro. CCBs']"	NUMERIC
+@ATTRIBUTE	"set[u'Alpha antagonists']"	NUMERIC
+@ATTRIBUTE	"set[u'ACEI/ARB', u'Aldosterone antagonists', u'Beta Blockers']"	NUMERIC
+@ATTRIBUTE	"set[u'Aldosterone antagonists', u'Beta Blockers', u'Diuretics']"	NUMERIC
+@ATTRIBUTE	"set[u'Aldosterone antagonists', u'Beta Blockers']"	NUMERIC
+@ATTRIBUTE	"set[u'Central alpha agonists']"	NUMERIC
+@ATTRIBUTE	"set[u'Dihydro CCBs', u'Central alpha agonists']"	NUMERIC
+@ATTRIBUTE	"set[u'ACEI/ARB', u'Aldosterone antagonists', u'Beta Blockers', u'Diuretics']"	NUMERIC
+@ATTRIBUTE	"set[u'Central alpha agonists', u'Diuretics']"	NUMERIC
+@ATTRIBUTE	"set[u'ACEI/ARB', u'Central alpha agonists']"	NUMERIC
+@ATTRIBUTE	"set[u'ACEI/ARB', u'Central alpha agonists', u'Diuretics']"	NUMERIC
+@ATTRIBUTE	"set[u'Thiazide/ACEI_ARB']"	NUMERIC
+@ATTRIBUTE	"set[u'Dihydro CCBs', u'Central alpha agonists', u'Thiazide/ACEI_ARB']"	NUMERIC
+@ATTRIBUTE	"set[u'Dihydro CCBs', u'Thiazide/ACEI_ARB', u'Beta Blockers']"	NUMERIC
+@ATTRIBUTE	"set[u'ACEI/ARB', u'Central alpha agonists', u'Thiazide/ACEI_ARB']"	NUMERIC
+@ATTRIBUTE	"set[u'Dihydro CCBs', u'Central alpha agonists', u'Beta Blockers', u'Diuretics']"	NUMERIC
+@ATTRIBUTE	"set[u'Dihydro CCBs', u'ACEI/ARB', u'Central alpha agonists', u'Thiazide/ACEI_ARB']"	NUMERIC
+@ATTRIBUTE	"set[u'Central alpha agonists', u'Beta Blockers']"	NUMERIC
+@ATTRIBUTE	"set[u'ACEI/ARB', u'Thiazide/ACEI_ARB']"	NUMERIC
+@ATTRIBUTE	"set[u'ACEI/ARB', u'Thiazide/ACEI_ARB', u'Beta Blockers']"	NUMERIC
+@ATTRIBUTE	"set[u'Dihydro CCBs', u'Central alpha agonists', u'Beta Blockers']"	NUMERIC
+@ATTRIBUTE	"set[u'Dihydro CCBs', u'ACEI/ARB', u'Central alpha agonists', u'Thiazide/ACEI_ARB', u'Beta Blockers']"	NUMERIC
+@ATTRIBUTE	"set[u'Dihydro CCBs', u'ACEI/ARB', u'Central alpha agonists', u'Beta Blockers']"	NUMERIC
+@ATTRIBUTE	"set[u'ACEI/ARB', u'Central alpha agonists', u'Beta Blockers']"	NUMERIC
+@ATTRIBUTE	"set[u'Central alpha agonists', u'Beta Blockers', u'Diuretics']"	NUMERIC
+@ATTRIBUTE	"set[u'Central alpha agonists', u'Thiazide/ACEI_ARB', u'Beta Blockers']"	NUMERIC
+@ATTRIBUTE	"set[u'Dihydro CCBs', u'ACEI/ARB', u'Central alpha agonists', u'Diuretics']"	NUMERIC
+@ATTRIBUTE	"set[u'Dihydro CCBs', u'Central alpha agonists', u'Thiazide/ACEI_ARB', u'Beta Blockers']"	NUMERIC
+@ATTRIBUTE	"set[u'Thiazide/ACEI_ARB', u'Beta Blockers']"	NUMERIC
+@ATTRIBUTE	"set[u'Dihydro CCBs', u'Central alpha agonists', u'Diuretics']"	NUMERIC
+@ATTRIBUTE	"set[u'Dihydro CCBs', u'ACEI/ARB', u'Central alpha agonists']"	NUMERIC
+@ATTRIBUTE	"set[u'Dihydro CCBs', u'Thiazide/ACEI_ARB']"	NUMERIC
+@ATTRIBUTE	"set[u'Dihydro CCBs', u'ACEI/ARB', u'Thiazide/ACEI_ARB', u'Beta Blockers']"	NUMERIC
+@ATTRIBUTE	"set[u'ACEI/ARB', u'Central alpha agonists', u'Beta Blockers', u'Diuretics']"	NUMERIC
+@ATTRIBUTE	"set[u'Dihydro CCBs', u'ACEI/ARB', u'Central alpha agonists', u'Beta Blockers', u'Diuretics']"	NUMERIC
+@ATTRIBUTE	"set[u'Dihydro CCBs', u'ACEI/ARB', u'Thiazide/ACEI_ARB']"	NUMERIC
+@ATTRIBUTE	"set[u'Central alpha agonists', u'Thiazide/ACEI_ARB']"	NUMERIC
+@ATTRIBUTE	"set[u'ACEI/ARB', u'Central alpha agonists', u'Thiazide/ACEI_ARB', u'Beta Blockers']"	NUMERIC
+@ATTRIBUTE	"set[u'Dihydro CCBs', u'Aldosterone antagonists', u'Beta Blockers']"	NUMERIC
+@ATTRIBUTE	"set[u'Dihydro CCBs', u'Aldosterone antagonists', u'Thiazide/ACEI_ARB', u'Beta Blockers']"	NUMERIC
+@ATTRIBUTE	"set[u'Aldosterone antagonists', u'Thiazide/ACEI_ARB', u'Beta Blockers']"	NUMERIC
+@ATTRIBUTE	"set[u'Dihydro CCBs', u'Aldosterone antagonists', u'Thiazide/ACEI_ARB']"	NUMERIC
+@ATTRIBUTE	"set[u'Aldosterone antagonists', u'Thiazide/ACEI_ARB']"	NUMERIC
+@ATTRIBUTE	class	{-1,1,0}
+@DATA
+19,16,43,17,15,14,14,18,21,13,19,17,16,23,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+0,0,49,31,0,0,30,0,45,24,47,37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1
+0,0,0,0,0,25,30,25,57,0,31,0,48,50,0,13,10,2,11,2,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+0,0,0,0,0,25,30,25,57,0,31,0,48,50,0,13,10,2,11,2,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+0,0,18,16,0,0,6,0,21,6,14,6,0,0,0,0,0,0,0,0,0,3,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1
+0,0,0,0,0,0,47,0,47,0,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+33,33,36,0,0,0,0,43,2,0,62,36,0,43,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1
+0,0,3,0,0,0,0,0,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+2,0,62,52,0,0,52,2,65,50,58,52,2,11,0,51,0,49,49,49,0,0,0,48,48,48,10,2,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1
+0,0,19,2,0,3,62,5,68,2,102,12,3,5,0,0,0,0,0,0,0,0,0,0,0,0,39,0,0,38,38,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+0,0,0,0,0,0,0,0,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+46,9,50,45,44,9,9,9,46,9,12,10,45,47,9,0,0,0,0,0,0,0,0,0,0,0,20,18,0,5,18,5,8,7,7,7,5,7,19,7,7,18,7,17,18,5,7,5,7,7,5,17,7,7,5,5,7,7,7,0,0,0,0,0,1
+0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+22,0,23,0,0,0,0,0,0,0,0,0,0,41,0,10,10,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,20,0,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,19,0,0,0,0,0,0,8,8,8,10,10,-1
+9,9,78,75,6,13,92,16,94,75,114,78,13,16,6,6,0,6,6,6,0,0,0,6,6,6,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+0,0,7,3,0,7,43,7,48,3,51,5,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+0,0,2,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+45,45,57,56,45,45,69,45,69,56,69,56,45,45,45,0,0,0,0,0,0,0,0,0,0,0,3,2,0,2,2,2,0,0,0,0,2,0,2,0,0,2,0,2,2,2,0,2,0,0,2,2,0,0,2,2,0,0,0,0,0,0,0,0,1
+4,4,80,2,0,0,3,4,3,2,78,75,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
